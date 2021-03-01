@@ -1,0 +1,13 @@
+<!-- display question and answer -->
+<div id="question-div">
+  <%= params[:question]%>
+  <p><i>-You</i></p>
+</div>
+
+<div id="answer-div">
+  <%= @answer %>
+  <p><i>-Your coach</i></p>
+</div>
+
+
+<%= link_to "Ask a new question", ask_path %>
